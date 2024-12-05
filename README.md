@@ -26,7 +26,7 @@ Installation
 
 	1.	Clone this repository:
 
-git clone https://github.com/yourusername/banner-maker.git
+git clone https://github.com/heyrapto/banner-maker.git
 
 
 	2.	Navigate to the project folder:
