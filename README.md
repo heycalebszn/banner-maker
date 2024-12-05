@@ -53,8 +53,6 @@ Usage ✨
 
 Screenshots 📸
 
-(Add screenshots or GIFs of the project in action here.)
-
 Contribution Guidelines 🤝
 
 Contributions are welcome! If you’d like to contribute:
@@ -72,4 +70,3 @@ Contact 📬
 
 For any inquiries or suggestions, feel free to contact me at [raptomiofw@gmail.com] or visit my GitHub profile.
 
-Let me know if you’d like any adjustments or additional sections!
