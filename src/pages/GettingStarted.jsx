@@ -10,7 +10,7 @@ const people = [
   { id: 3, name: 'Both' },
 ]
 
-export default function Example() {
+export default function GettingStarted() {
   const [query, setQuery] = useState('')
   const [selected, setSelected] = useState(people[1])
 
@@ -22,10 +22,10 @@ export default function Example() {
         })
 
   return (
-    <div className="flex flex-col items-center justify-left text-left pt-[150px]">
-        <h1 className="text-[25px] font-medium text-white pb-[10px] text-left flex">Please Choose your Field!👨‍🍳</h1>
+    <div className="flex flex-col items-center justify-left text-left pt-[180px] md:px-[0px] px-[20px]">
+        <h1 className="md:text-[30px] font-medium text-white pb-[30px] text-left flex text-[25px]">Please Choose your Field!👨‍🍳</h1>
     
-    <div className="flex flex-col items-center justify-left m-auto h-screen w-52 text-left">
+    <div className="flex flex-col items-center justify-left m-auto w-52 text-left">
       <Combobox value={selected} onChange={(value) => setSelected(value)} onClose={() => setQuery('')}>
         <div className="relative w-[400px]">
           <ComboboxInput
